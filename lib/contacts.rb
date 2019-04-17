@@ -20,10 +20,10 @@ def remove_strawberry(contacts)
       person_details.each do |att,data|
               
               if att == :favorite_ice_cream_flavors 
-                data.delete_if {|cream| cream == "strawberry"}
+                data.delete_if{|cream| cream == "strawberry"}
               end 
             end 
       end 
     
   end
-end
+
